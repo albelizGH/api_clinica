@@ -1,0 +1,16 @@
+spring:
+    profile:
+        active: prod
+    application:
+        name: api
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: ${DATASOURSE_URL}
+        username: ${DATASOURCE_USERNAME}
+        password: ${DATASOURCE_PASSWORD}
+    jpa:
+        show-sql: false
+        properties:
+                hibernate:
+                    format_sql: false
+

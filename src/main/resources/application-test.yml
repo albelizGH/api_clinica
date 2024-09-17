@@ -1,0 +1,12 @@
+
+spring:
+    application:
+        name: api
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/vollmed-api_test?createDatabaseIfNotExist=true&serverTimezone=UTC
+        username: root
+        password: ${DB_PASSWORD}
+
+
+
